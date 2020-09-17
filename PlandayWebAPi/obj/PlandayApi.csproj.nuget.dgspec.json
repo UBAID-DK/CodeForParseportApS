@@ -1,0 +1,342 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayWebAPi/PlandayApi.csproj": {}
+  },
+  "projects": {
+    "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj",
+        "projectName": "PlandayApi.Core",
+        "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj",
+        "packagesPath": "/Users/ubaidrahman/.nuget/packages/",
+        "outputPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ubaidrahman/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "microsoft.entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Application/PlandayApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Application/PlandayApi.Application.csproj",
+        "projectName": "PlandayApi.Application",
+        "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Application/PlandayApi.Application.csproj",
+        "packagesPath": "/Users/ubaidrahman/.nuget/packages/",
+        "outputPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ubaidrahman/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj": {
+                "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Instrastructure/PlandayApi.Instrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Instrastructure/PlandayApi.Instrastructure.csproj",
+        "projectName": "PlandayApi.Instrastructure",
+        "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Instrastructure/PlandayApi.Instrastructure.csproj",
+        "packagesPath": "/Users/ubaidrahman/.nuget/packages/",
+        "outputPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Instrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ubaidrahman/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj": {
+                "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj"
+              },
+              "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Application/PlandayApi.Application.csproj": {
+                "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Application/PlandayApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayWebAPi/PlandayApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayWebAPi/PlandayApi.csproj",
+        "projectName": "PlandayApi",
+        "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayWebAPi/PlandayApi.csproj",
+        "packagesPath": "/Users/ubaidrahman/.nuget/packages/",
+        "outputPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayWebAPi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ubaidrahman/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj": {
+                "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/Planday.Data/PlandayApi.Core.csproj"
+              },
+              "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Application/PlandayApi.Application.csproj": {
+                "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Application/PlandayApi.Application.csproj"
+              },
+              "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Instrastructure/PlandayApi.Instrastructure.csproj": {
+                "projectPath": "/Users/ubaidrahman/Downloads/PlandayWebAPI_v1.0/PlandayApi/PlandayApi.Instrastructure/PlandayApi.Instrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.6.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayWebAPi\\PlandayWebAPi.csproj": {}
+  },
+  "projects": {
+    "D:\\PlandayWebAPI_v1.0\\PlandayApi\\Planday.Data\\PlandayApi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\Planday.Data\\PlandayApi.Core.csproj",
+        "projectName": "PlandayApi.Core",
+        "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\Planday.Data\\PlandayApi.Core.csproj",
+        "packagesPath": "C:\\Users\\Ubaid Ur Rahman\\.nuget\\packages\\",
+        "outputPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\Planday.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ubaid Ur Rahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "microsoft.entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Application\\PlandayApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Application\\PlandayApi.Application.csproj",
+        "projectName": "PlandayApi.Application",
+        "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Application\\PlandayApi.Application.csproj",
+        "packagesPath": "C:\\Users\\Ubaid Ur Rahman\\.nuget\\packages\\",
+        "outputPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ubaid Ur Rahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\PlandayWebAPI_v1.0\\PlandayApi\\Planday.Data\\PlandayApi.Core.csproj": {
+                "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\Planday.Data\\PlandayApi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Instrastructure\\PlandayApi.Instrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Instrastructure\\PlandayApi.Instrastructure.csproj",
+        "projectName": "PlandayApi.Instrastructure",
+        "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Instrastructure\\PlandayApi.Instrastructure.csproj",
+        "packagesPath": "C:\\Users\\Ubaid Ur Rahman\\.nuget\\packages\\",
+        "outputPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Instrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ubaid Ur Rahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Application\\PlandayApi.Application.csproj": {
+                "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Application\\PlandayApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayWebAPi\\PlandayWebAPi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayWebAPi\\PlandayWebAPi.csproj",
+        "projectName": "PlandayWebAPi",
+        "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayWebAPi\\PlandayWebAPi.csproj",
+        "packagesPath": "C:\\Users\\Ubaid Ur Rahman\\.nuget\\packages\\",
+        "outputPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayWebAPi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ubaid Ur Rahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\PlandayWebAPI_v1.0\\PlandayApi\\Planday.Data\\PlandayApi.Core.csproj": {
+                "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\Planday.Data\\PlandayApi.Core.csproj"
+              },
+              "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Application\\PlandayApi.Application.csproj": {
+                "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Application\\PlandayApi.Application.csproj"
+              },
+              "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Instrastructure\\PlandayApi.Instrastructure.csproj": {
+                "projectPath": "D:\\PlandayWebAPI_v1.0\\PlandayApi\\PlandayApi.Instrastructure\\PlandayApi.Instrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

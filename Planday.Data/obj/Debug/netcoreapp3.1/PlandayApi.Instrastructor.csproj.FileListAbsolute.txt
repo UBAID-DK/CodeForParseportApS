@@ -1,0 +1,12 @@
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\PlandayApi.Instrastructor.deps.json
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\PlandayApi.Instrastructor.runtimeconfig.json
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\PlandayApi.Instrastructor.runtimeconfig.dev.json
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\PlandayApi.Instrastructor.dll
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\PlandayApi.Instrastructor.pdb
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\PlandayApi.Instrastructor.csprojAssemblyReference.cache
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\PlandayApi.Instrastructor.AssemblyInfoInputs.cache
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\PlandayApi.Instrastructor.AssemblyInfo.cs
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\PlandayApi.Instrastructor.csproj.CoreCompileInputs.cache
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\PlandayApi.Instrastructor.dll
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\PlandayApi.Instrastructor.pdb
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\PlandayApi.Instrastructor.genruntimeconfig.cache

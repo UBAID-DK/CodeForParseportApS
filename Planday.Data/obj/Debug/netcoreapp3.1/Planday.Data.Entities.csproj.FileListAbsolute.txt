@@ -1,0 +1,12 @@
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\Planday.Data.Entities.deps.json
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\Planday.Data.Entities.runtimeconfig.json
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\Planday.Data.Entities.runtimeconfig.dev.json
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\Planday.Data.Entities.dll
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\bin\Debug\netcoreapp3.1\Planday.Data.Entities.pdb
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\Planday.Data.Entities.csprojAssemblyReference.cache
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\Planday.Data.Entities.AssemblyInfoInputs.cache
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\Planday.Data.Entities.AssemblyInfo.cs
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\Planday.Data.Entities.csproj.CoreCompileInputs.cache
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\Planday.Data.Entities.dll
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\Planday.Data.Entities.pdb
+D:\PlandayWebAPI_v1.0\PlandayApi\Planday.Data\obj\Debug\netcoreapp3.1\Planday.Data.Entities.genruntimeconfig.cache
